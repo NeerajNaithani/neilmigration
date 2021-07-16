@@ -1,0 +1,220 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.banner
+{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background: linear-gradient(rgba(22, 22, 22, 0.65), rgba(22, 22, 22, 0.65)),url(./images/canada.jpg) center center;
+    height: auto;
+    width: 100%;
+    
+}
+.main-head
+{
+    font-size: 35px;
+
+} 
+.text-white
+{
+    color: white!important;
+}
+.number
+{
+    font-size: 30px;
+    font-weight: 600;
+    color: #3ed6a2;
+
+}
+.registration
+{
+    border: 6px solid #3ed6a2;
+    background-color: #3ed6a2;
+    border-radius: 6px;
+    padding: 20px;
+}
+.text-centre
+{
+    text-align: center!important;
+}
+.home
+{
+    font-size: 40px;
+    color: #3ed6a2;
+    font-weight: 400;
+}
+.canada-home
+{
+    background-color: #f7f7f7;
+}
+.homep
+{
+    font-size: 15px;
+    color: #707070;
+    text-align: justify;
+}
+.exprees
+{
+    color: #3ed6a2;
+    font-size: 40px;
+    font-weight: 400;
+  
+}
+.express-p
+{
+    font-size: 13px;
+    color: #707070;
+    line-height: 22px;
+    letter-spacing: .01em;
+}
+.box
+{
+    border: 1px solid #c3c3c3;
+    border-radius: 10px;
+    padding: 20px;
+    min-height: 300px;
+   
+}
+.icon-title
+{
+    font-weight: 500;
+    font-size:14px ;
+}
+.appoint
+{
+    background-color: #60C4B8;
+    
+}
+.canda-pr
+{
+    background-color: #1B1841;
+}
+.nile-content
+{
+    font-size: 15px;
+    color: #d0d0d0;
+}
+.citizenship
+{
+    font-size: 25px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: white;
+}
+.about-us
+{
+    background-color: #eeeeee;
+}
+.about
+{
+    font-size: 15px;
+    color:#353535; ;
+    text-align: justify;
+}
+.about-name
+{
+    font-size: 19px;
+    color: #254758;
+    margin-top: 15px;
+}
+.form
+{
+    background-color: #373435;
+}
+.footer-heading
+{
+    background-color: #fff;
+    color: #124385;
+    display: inline-block;
+    padding: 5px;
+    font-size: 25px;
+ 
+}
+.fotter
+{
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 10px;
+}
+.form-h
+{
+    margin-bottom: 15px;
+    color: #000;
+    border: 1px solid #124385;
+    font-size: 16px;
+    padding: 6px 10px;
+    display: block;
+    width: 100%;
+    outline: none;
+    height: 37px;
+}
+.pp
+{
+    padding-top: 100px;
+}
+
+@media screen and (max-width : 760px)
+{
+    .logos>img{
+         width: 110px;
+         height: auto;
+
+    }
+  
+}
+@media screen and (max-width : 760px)
+{
+    .iccrc>img{
+         width: 50px;
+         height: auto;
+        margin: 0px;
+        padding: 0px;
+    }
+  
+}
+
+@media screen and (max-width : 760px)
+{
+    .banner{
+        background: url("./images/banner-mobile.jpg");
+        background-repeat: no-repeat;
+        background-color: #333;
+        background-size: cover;
+        width: 100%;
+    } 
+}
+
+@media screen and (max-width : 760px)
+{
+    .box {
+        margin-bottom: 20px;
+    }
+  
+}
+
+
+@media screen and (max-width : 760px)
+{
+    .main-head {
+    font-size: 25px;
+    margin: 0px;
+    padding: 0px;
+    }
+  
+}
+@media screen and (max-width : 760px)
+{
+    .registration  {
+      width: 100%;
+      padding-right: 0px;
+      padding-left: 0px;
+      font-size: 20px;
+      background-color: #3ed6a2;
+      border: 10px solid #3ed6a2;
+    }
+  
+}
